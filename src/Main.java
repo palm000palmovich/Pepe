@@ -32,7 +32,7 @@ public class Main {
             System.out.println("\n");
         System.out.println("Задание 3");
 
-        int year0 = 1584, year = 1684;
+        int year0 = 1584, year = 1984;
         if ((year > year0) && ((((year - year0) % 4 == 0) || ((year - year0) % 4 == 0 && (year - year0) % 100 != 0)) ||
                 ((year - year0) % 400 == 0))){
             System.out.println("Это високосный год");
@@ -40,5 +40,24 @@ public class Main {
             System.out.println("Это не високосный год");
         }
 
+        for (int i = 0; i < 2; i++)
+            System.out.println("\n");
+        System.out.println("Задание 4");
+
+        int km = 111;
+        byte days = 1;
+
+        if (km < 20){
+            System.out.println("Потребуется " + days + " день.");
+        } else if (km >= 20 && km <= 60){
+            System.out.println("Потребуется " + (days+1) + " дня.");
+        } else if (km > 60 && km <= 100){
+            System.out.println("Потребуется " + (days+2) + " дня.");
+        } else if (km > 100){
+            System.out.println("На такие большие расстояния не доставляем.");
         }
+
+        }
+
+
 }
