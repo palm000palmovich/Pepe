@@ -41,6 +41,23 @@ public class Main {
             System.out.println(year + " - не високосный год.");
         }
 
+        for (int i = 0; i < 2; i++)
+            System.out.println("\n");
+        System.out.println("Задание 4");
+
+        int km = 95;
+        byte days = 1;
+
+        if (km < 20){
+            System.out.println("Потребуется " + days + " день.");
+        } else if (km >= 20 && km <= 60){
+            System.out.println("Потребуется " + (days+1) + " дня.");
+        } else if (km > 60 && km <= 100){   //тут в интервал входит расстояние в 100 км, значит это значение учитывается
+            System.out.println("Потребуется " + (days+2) + " дня.");
+        } else if (km > 100){ //тут указано, что будет, если расстояние будет больше 100 км
+            System.out.println("На такие большие расстояния не доставляем.");
+        }
+
 
     }
 
