@@ -28,5 +28,17 @@ public class Main {
             System.out.println("Установите облегченную версию приложения для Android по ссылке");
         }
 
+        for (int i = 0; i < 2; i++)
+            System.out.println("\n");
+        System.out.println("Задание 3");
+
+        int year0 = 1584, year = 1684;
+        if ((year > year0) && ((((year - year0) % 4 == 0) || ((year - year0) % 4 == 0 && (year - year0) % 100 != 0)) ||
+                ((year - year0) % 400 == 0))){
+            System.out.println("Это високосный год");
+        } else {
+            System.out.println("Это не високосный год");
+        }
+
         }
 }
