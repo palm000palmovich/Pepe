@@ -59,6 +59,52 @@ public class Main {
         }
 
 
+        for (int i = 0; i < 2; i++)
+            System.out.println("\n");
+        System.out.println("Задание 5");
+        int monthNumber = 13;
+        if (monthNumber > 12 || monthNumber < 1){
+            System.out.println("Такого месяца нет!");
+        } else if (monthNumber <= 12 && monthNumber >= 1) {
+            switch (monthNumber) {
+                case 1:
+                    System.out.println(monthNumber + " - это " + "Январь");
+                    break;
+                case 2:
+                    System.out.println(monthNumber + " - это " + "Февраль");
+                    break;
+                case 3:
+                    System.out.println(monthNumber + " - это " + "Март");
+                    break;
+                case 4:
+                    System.out.println(monthNumber + " - это " + "Апрель");
+                    break;
+                case 5:
+                    System.out.println(monthNumber + " - это " + "Май");
+                    break;
+                case 6:
+                    System.out.println(monthNumber + " - это " + "Июнь");
+                    break;
+                case 7:
+                    System.out.println(monthNumber + " - это " + "Июль");
+                    break;
+                case 8:
+                    System.out.println(monthNumber + " - это " + "Август");
+                    break;
+                case 9:
+                    System.out.println(monthNumber + " - это " + "Сентябрь");
+                    break;
+                case 10:
+                    System.out.println(monthNumber + " - это " + "Октябрь");
+                    break;
+                case 11:
+                    System.out.println(monthNumber + " - это " + "Ноябрь");
+                    break;
+                case 12:
+                    System.out.println(monthNumber + " - это " + "Декабрь");
+                    break;
+            }
+        }
     }
 
 
