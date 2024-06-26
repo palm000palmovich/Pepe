@@ -30,9 +30,19 @@ public class Main {
             }
         }
 
+        for (int i = 0; i < 2; i++)
+            System.out.println("\n");
+        System.out.println("Задание 3");
 
+        int year = 2018;
+        if (year > 1584 && ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0)) {
+            System.out.println(year + " - високосный год.");
+        } else {
+            System.out.println(year + " - не високосный год.");
         }
 
+
+    }
 
 
 }
